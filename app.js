@@ -20,7 +20,7 @@ server.post('/api/messages', connector.listen());
 // Root dialog for entry point in application
 bot.dialog('/', [
     function (session,args, next) {
-        session.send("Hi");
+        session.send("Hi, i'm so sleepy");
     }
 
 ]);
