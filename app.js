@@ -24,9 +24,10 @@ bot.dialog('/', [
     }
 ]);
 
-var Enum = require('enum');
+/*var Enum = require('enum');
 var rootFlow = new Enum(['payment', 'issue','Yes','No','Reset', 'StartGreeting'],{ignoreCase:true});
 const client = new Wit({accessToken: 'OMA6J3GMQV43OCFXKIA3QKP7BJQCFDBT'});
+*/
 
 var userAddress= {};
 
